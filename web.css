@@ -1,0 +1,26 @@
+/* Style for the entire body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #97877a;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style for the main heading */
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 36px;
+}
+
+/* Style for the image */
+img {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #6e6863;
+    border-radius: 10px;
+}
