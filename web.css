@@ -41,6 +41,7 @@
 /* Main content styling */
 main {
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
     align-items: center;
     /*justify-content: center;*/
@@ -70,6 +71,7 @@ img {
     margin: 20px auto;
     border: 5px solid #6e6863;
     border-radius: 10px;
+    box-shadow: 2px 0 5px rgba(0.1, 0.1, 0.1, 0.1);
 }
 
 /* Paragraph styling with the same width as the image */
