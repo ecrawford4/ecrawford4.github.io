@@ -70,7 +70,7 @@ img {
 
 /* Paragraph styling with the same width as the image */
 p {
-    width: 350px; /* Match the width of the image */
+    width: 525px; /* Match the width of the image */
     margin: 20px auto; /* Center it */
     color: #333;
     text-align: justify;
