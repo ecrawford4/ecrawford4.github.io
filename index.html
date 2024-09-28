@@ -19,12 +19,12 @@
                 <li><a href="https://ecrawford.me/personal">My Hobbies</a></li>
             </ul>
 
-            <p id="last-updated"></p>
+            <p id="current-session"></p>
 
             <script>
                 const dateTimeString = new Date().toLocaleString();
                 const [datePart, timePart] = dateTimeString.split(', ');
-                document.getElementById('last-updated').innerHTML = `Last updated:<br>${datePart}<br>${timePart}`;
+                document.getElementById('current-session').innerHTML = `Current Session:<br>${datePart}<br>${timePart}`;
             </script>
 
         </div>
