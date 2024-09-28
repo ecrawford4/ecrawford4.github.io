@@ -3,24 +3,33 @@
     display: flex;
     margin: 0;
     height: 100vh;
-    /* Keep full viewport height for layout consistency */
-    overflow: hidden;
-    /* Prevent outer scrolling */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for container */
+    overflow: hidden; /* Prevent the whole container from scrolling */
+}
+
+/* Apply background image to the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent any scrolling at the body level */
+    background-image: url('../assets/1670284497378674.jpg'); /* Add your background image */
+    background-size: cover; /* Cover entire viewport */
+    background-attachment: fixed; /* Keep it fixed when scrolling */
+    background-position: center; /* Center the image */
 }
 
 /* Left pane styling */
 .left-pane {
     position: sticky;
     top: 0;
-    /* Stick to the top of the viewport */
     width: 150px;
     background-color: #6e6863;
     padding: 20px;
-    height: 100vh;
-    /* Full height of the viewport */
+    height: 100vh; /* Full height of the viewport */
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-    overflow-y: auto;
-    /* Enable vertical scrolling for the left pane */
+    overflow-y: auto; /* Allow left pane to scroll if needed */
+    flex-shrink: 0; /* Prevent the left pane from shrinking */
 }
 
 /* Links inside the left pane */
@@ -46,23 +55,19 @@
 /* Main content styling */
 main {
     flex-grow: 1;
-    /* Take up remaining space */
+    max-width: 750px; /* Set a max width for the content area */
     padding: 20px;
-    overflow-y: auto;
-    /* Allow scrolling for main content */
+    overflow-y: auto; /* Allow scrolling for main content */
     box-sizing: border-box;
-    height: 100vh;
-    /* Full height of the viewport for scrolling */
-}
+    background-color: #97877a; /* Solid background color for content */
+  
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Optional shadow */
+    margin: auto;
+    height: 100vh; /* Set main height to the full viewport height */
+    overflow-y: scroll; /* Allow only the main content to scroll */
 
-/* Style for the entire body */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #97877a;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    /* Prevent horizontal scrolling */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
 }
 
 /* Style for the main heading */

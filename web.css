@@ -3,7 +3,7 @@
     display: flex;
     margin: 0;
     height: 100vh;
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for container */
+    background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent background for container */
     overflow: hidden; /* Prevent the whole container from scrolling */
 }
 
@@ -60,8 +60,8 @@ main {
     overflow-y: auto; /* Allow scrolling for main content */
     box-sizing: border-box;
     background-color: #97877a; /* Solid background color for content */
-    border-radius: 10px;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Optional shadow */
     margin: auto;
     height: 100vh; /* Set main height to the full viewport height */
     overflow-y: scroll; /* Allow only the main content to scroll */
