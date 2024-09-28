@@ -1,0 +1,92 @@
+/* Container to hold the left pane and main content */
+.container {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    /* Keep full viewport height for layout consistency */
+    overflow: hidden;
+    /* Prevent outer scrolling */
+}
+
+/* Left pane styling */
+.left-pane {
+    position: sticky;
+    top: 0;
+    /* Stick to the top of the viewport */
+    width: 150px;
+    background-color: #6e6863;
+    padding: 20px;
+    height: 100vh;
+    /* Full height of the viewport */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    /* Enable vertical scrolling for the left pane */
+}
+
+/* Links inside the left pane */
+.left-pane ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left-pane ul li {
+    margin-bottom: 10px;
+}
+
+.left-pane ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.left-pane ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styling */
+main {
+    flex-grow: 1;
+    /* Take up remaining space */
+    padding: 20px;
+    overflow-y: auto;
+    /* Allow scrolling for main content */
+    box-sizing: border-box;
+    height: 100vh;
+    /* Full height of the viewport for scrolling */
+}
+
+/* Style for the entire body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #97877a;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* Prevent horizontal scrolling */
+}
+
+/* Style for the main heading */
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 36px;
+}
+
+/* Style for the image */
+img {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #6e6863;
+    border-radius: 10px;
+    box-shadow: 2px 0 5px rgba(0.1, 0.1, 0.1, 0.1);
+}
+
+/* Paragraph styling with the same width as the image */
+p {
+    width: 525px;
+    /* Match the width of the image */
+    margin: 20px auto;
+    /* Center it */
+    color: #333;
+    text-align: justify;
+}
