@@ -1,3 +1,39 @@
+/* Container to hold the left pane and main content */
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+/* Left pane styling */
+.left-pane {
+    width: 150px;
+    background-color: #6e6863;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Links inside the left pane */
+.left-pane ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left-pane ul li {
+    margin-bottom: 10px;
+}
+
+.left-pane ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.left-pane ul li a:hover {
+    text-decoration: underline;
+}
+
 /* Style for the entire body */
 body {
     font-family: Arial, sans-serif;
