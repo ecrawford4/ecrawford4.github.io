@@ -68,7 +68,7 @@ body {
 /* Style for the main heading */
 h1 {
     color: #333;
-    text-align: left;
+    text-align: center;
     font-size: 36px;
 }
 
@@ -88,5 +88,5 @@ p {
     margin: 20px auto;
     /* Center it */
     color: #333;
-    text-align: left;
+    text-align: justify;
 }
