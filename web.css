@@ -24,3 +24,11 @@ img {
     border: 5px solid #6e6863;
     border-radius: 10px;
 }
+
+/* Paragraph styling with the same width as the image */
+p {
+    width: 350px; /* Match the width of the image */
+    margin: 20px auto; /* Center it */
+    color: #333;
+    text-align: justify;
+}
