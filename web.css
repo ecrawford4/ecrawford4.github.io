@@ -13,7 +13,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden; /* Prevent any scrolling at the body level */
-    background-image: url('assets/1670284497378674.jpg'); /* Add your background image */
+    background-image: url('assets/1670284497378674.jpg'); 
     background-size: cover; /* Cover entire viewport */
     background-attachment: fixed; /* Keep it fixed when scrolling */
     background-position: center; /* Center the image */
@@ -43,12 +43,13 @@ body {
 }
 
 .left-pane ul li a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     font-size: 18px;
 }
 
 .left-pane ul li a:hover {
+    color: #e2ad82;
     text-decoration: underline;
 }
 
@@ -61,7 +62,7 @@ main {
     box-sizing: border-box;
     background-color: #97877a; /* Solid background color for content */
   
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Optional shadow */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); 
     margin: auto;
     height: 100vh; /* Set main height to the full viewport height */
     overflow-y: scroll; /* Allow only the main content to scroll */
@@ -70,11 +71,28 @@ main {
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
 }
 
-/* Style for the main heading */
 h1 {
     color: #333;
     text-align: center;
     font-size: 36px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    font-size: 24px;
+}
+
+h3 {
+    color: #333;
+    text-align: center;
+    font-size: 20px;
+}
+
+h4 {
+    color: #333;
+    text-align: center;
+    font-size: 18px;
 }
 
 /* Style for the image */
@@ -89,9 +107,7 @@ img {
 /* Paragraph styling with the same width as the image */
 p {
     width: 525px;
-    /* Match the width of the image */
     margin: 20px auto;
-    /* Center it */
     color: #333;
     text-align: justify;
 }
