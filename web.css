@@ -138,12 +138,82 @@ p {
     text-align: justify;
 }
 
+/* Styling for the copyright paragraph */
+p.copyright {
+    font-size: 12px;
+    color: #aaa;
+    text-align: center;
+    position: bottom;
+    bottom: 0px;
+    width: 100%;
+    margin: 0;
+}
+
 /* Paragraph styling inside details */
 details p {
     width: auto; /* Allow paragraphs inside details to take full width */
     margin: 10px 0;
     color: #bbb;
-    text-align: left;
+    text-align: justify;
     padding-left: 20px;
     padding-right: 20px;
 }
+
+/* Styling for links inside details element */
+details a {
+    color: #bbb;
+    text-decoration: underline;
+}
+
+details a:hover {
+    color: #e2ad82;
+    text-decoration: underline;
+}
+
+/* Styling for code blocks */
+code {
+    background-color: #f4f4f4;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+/* Styling for blockquote */
+blockquote {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-left: 5px solid #6e6863;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 525px;
+    text-align: justify;
+}
+
+/* Styling for tables */
+table {
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 525px;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #6e6863;
+    color: #fff;
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar for IE and Edge */
+    -ms-overflow-style: none;
+}
+
+
+
