@@ -79,7 +79,9 @@ h1 {
 
 h2 {
     color: #333;
-    text-align: center;
+    padding-top: 15px;
+    padding-left: 60px;
+    text-align: left;
     font-size: 24px;
 }
 
@@ -94,7 +96,31 @@ h4 {
     text-align: center;
     font-size: 18px;
 }
+/* Styling for details element */
+details {
+    background-color: #6e6863;
+    border: 1px solid #373431;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 525px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
 
+/* Styling for summary element */
+details summary {
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    outline: none;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #333;
+    margin-bottom: 10px;
+}
 /* Style for the image */
 img {
     display: block;
@@ -110,4 +136,14 @@ p {
     margin: 20px auto;
     color: #333;
     text-align: justify;
+}
+
+/* Paragraph styling inside details */
+details p {
+    width: auto; /* Allow paragraphs inside details to take full width */
+    margin: 10px 0;
+    color: #bbb;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
 }
