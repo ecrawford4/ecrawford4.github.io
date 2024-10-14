@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.file {
+    color: rgb(0, 200, 200);
+}
+
+a.download {
+    color: rgb(200, 0, 200);
+}
