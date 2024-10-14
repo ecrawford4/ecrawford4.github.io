@@ -20,3 +20,7 @@ a.file {
 a.download {
     color: rgb(200, 0, 200);
 }
+
+em {
+    color: rgb(200, 200, 0);
+}
