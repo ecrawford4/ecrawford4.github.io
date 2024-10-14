@@ -4,6 +4,11 @@ body {
     font-family: monospace;
 }
 
+pre {
+    margin: 0;
+    font-size: 14px;
+}
+
 a {
     color: rgb(0, 200, 0);
     text-decoration: none;
