@@ -29,3 +29,7 @@ a.download {
 em {
     color: rgb(200, 200, 0);
 }
+
+em.hover {
+    text-decoration: underline;
+}
