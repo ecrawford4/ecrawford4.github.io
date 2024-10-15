@@ -170,6 +170,11 @@ details a:hover {
     text-decoration: underline;
 }
 
+summary a {
+    color: #333;
+    text-decoration: underline;
+}
+
 /* Styling for code blocks */
 code {
     background-color: #f4f4f4;
