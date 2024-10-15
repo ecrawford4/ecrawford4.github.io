@@ -221,12 +221,15 @@ th {
     -ms-overflow-style: none;
 }
 
-.grid-container {
+/* Grid container styling */
+.grid-container { 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     margin-top: 20px;
-    max-width: 750px;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .grid-item {
@@ -234,9 +237,9 @@ th {
     border: 1px solid #373431;
     border-radius: 5px;
     padding: 10px;
-    margin: 20px auto;
-    width: 90%;
-    max-width: 525px;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 200px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0.1, 0.1);
 }
 
