@@ -220,5 +220,33 @@ th {
     -ms-overflow-style: none;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    max-width: 750px;
+}
+
+.grid-item {
+    background-color: #6e6863;
+    border: 1px solid #373431;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 525px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0.1, 0.1);
+}
+
+.grid-container a {
+    color: #333;
+    text-decoration: underline;
+}
+
+.grid-container a:hover {
+    color: #e2ad82;
+    text-decoration: underline;
+}
 
 
