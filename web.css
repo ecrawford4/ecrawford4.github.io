@@ -159,21 +159,22 @@ details p {
     padding-right: 20px;
 }
 
+a {
+    color: #333;
+    text-decoration: underline;
+}
+
 /* Styling for links inside details element */
 details a {
     color: #bbb;
     text-decoration: underline;
 }
 
-details a:hover {
+a:hover {
     color: #e2ad82;
     text-decoration: underline;
 }
 
-summary a {
-    color: #333;
-    text-decoration: underline;
-}
 
 /* Styling for code blocks */
 code {
@@ -240,7 +241,7 @@ th {
 }
 
 .grid-container a {
-    color: #333;
+    color: #bbb;
     text-decoration: underline;
 }
 
