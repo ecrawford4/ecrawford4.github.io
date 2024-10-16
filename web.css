@@ -7,9 +7,9 @@
     overflow: hidden; /* Prevent the whole container from scrolling */
 }
 
-/* Apply background image to the body */
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: sans-serif, ui-sans-serif;
     margin: 0;
     padding: 0;
     overflow: hidden; /* Prevent any scrolling at the body level */
@@ -99,7 +99,7 @@ h4 {
 /* Styling for details element */
 details {
     background-color: #6e6863;
-    border: 1px solid #373431;
+    border: 0px solid #373431;
     border-radius: 5px;
     padding: 10px;
     margin: 20px auto;
@@ -118,14 +118,14 @@ details summary {
 }
 
 details[open] summary {
-    border-bottom: 1px solid #333;
+    border-bottom: 0px solid #333;
     margin-bottom: 10px;
 }
 /* Style for the image */
 img {
     display: block;
     margin: 20px auto;
-    border: 5px solid #6e6863;
+    border: 0px solid #6e6863;
     border-radius: 10px;
     box-shadow: 2px 0 5px rgba(0.1, 0.1, 0.1, 0.1);
 }
@@ -234,7 +234,7 @@ th {
 
 .grid-item {
     background-color: #6e6863;
-    border: 1px solid #373431;
+    border: 0px solid #373431;
     border-radius: 5px;
     padding: 10px;
     margin: 10px auto;
@@ -259,4 +259,22 @@ details h4 {
     text-align: left;
     margin-bottom: 0;
     margin-left: 20px;
+}
+
+/* Styling for social badge links */
+a.social-badge {
+    display: inline-block;
+    background-color: #6e6863;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a.social-badge:hover {
+    background-color: #e2ad82;
+    color: #333;
 }
