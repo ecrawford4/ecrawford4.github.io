@@ -231,7 +231,7 @@ th {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     margin-top: 20px;
-    max-width: 520px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -267,7 +267,7 @@ details h4 {
 }
 
 /* Styling for social badge links */
-a.social-badge {
+a.social-badge, a.music-folio-badge {
     display: inline-block;
     background-color: #6e6863;
     color: #fff;
@@ -279,7 +279,57 @@ a.social-badge {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+a.music-folio-badge {
+    text-align: center;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+a.music-folio-badge:hover {
+    background-color: #e2ad82;
+    color: #333;
+}
+
 a.social-badge:hover {
     background-color: #e2ad82;
     color: #333;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin: 20px auto;
+    border: 0px solid #6e6863;
+    border-radius: 10px;
+    box-shadow: 2px 0 5px rgba(0.1, 0.1, 0.1, 0.1);
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #6e6863;
+    color: #e2ad82;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: color 0.3s ease, color 0.3s ease;
+}
+
+audio::webkit-media-controls-panel:hover {
+    background-color: #e2ad82;
+    color: #333;
+}
+
+.music-folio {
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+.music-folio-grid-item {
+    background-color: clear;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 300px;
 }
