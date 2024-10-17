@@ -23,12 +23,14 @@ body {
 .left-pane {
     position: sticky;
     top: 0;
+    right: 0; /* Make the left pane sticky from the right */
     width: 150px;
     background-color: #6e6863;
     padding: 20px;
     height: 100vh; /* Full height of the viewport */
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); /* Adjust shadow direction */
     overflow-y: auto; /* Allow left pane to scroll if needed */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
     flex-shrink: 0; /* Prevent the left pane from shrinking */
 }
 
@@ -46,11 +48,11 @@ body {
     color: #ffffff;
     text-decoration: none;
     font-size: 18px;
+    transition: color 0.3s ease, color 0.3s ease;
 }
 
 .left-pane ul li a:hover {
     color: #e2ad82;
-    text-decoration: underline;
 }
 
 /* Main content styling */
@@ -162,12 +164,14 @@ details p {
 a {
     color: #333;
     text-decoration: underline;
+    transition: color 0.3s ease, color 0.3s ease;
 }
 
 /* Styling for links inside details element */
 details a {
     color: #bbb;
     text-decoration: underline;
+    transition: color 0.3s ease, color 0.3s ease;
 }
 
 a:hover {
@@ -244,12 +248,13 @@ th {
 }
 
 .grid-container a {
-    color: #bbb;
+    color: #333;
     text-decoration: underline;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .grid-container a:hover {
-    color: #e2ad82;
+    background-color: #e2ad82;
     text-decoration: underline;
 }
 
