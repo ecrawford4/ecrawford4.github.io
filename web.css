@@ -207,6 +207,10 @@ img {
     box-shadow: 0.125em 0 0.3125em rgba(0.1, 0.1, 0.1, 0.1); /* 2px 0 5px */
 }
 
+img.social-badge {
+    border-radius: 0em; /* 0px */
+}
+
 /* Styling for code blocks */
 code {
     background-color: #f4f4f4;
