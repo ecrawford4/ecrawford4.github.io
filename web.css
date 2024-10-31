@@ -217,17 +217,20 @@ code {
     padding: 0.3125em; /* 5px */
     border-radius: 0.3125em; /* 5px */
     font-family: monospace;
+    white-space: pre; /* Maintain verbatim spacing */
+    width: 60%;
+    display: block;
+    margin: 0.625em auto; /* 10px */
 }
 
 /* Styling for blockquote */
 blockquote {
-    background-color: #f4f4f4;
     padding: 0.625em; /* 10px */
-    border-left: 0.3125em solid #6e6863; /* 5px */
+    border-right: 0.3125em solid #6e6863; /* 5px */
     margin: 1.25em auto; /* 20px */
-    width: 90%;
+    width: 60%;
     max-width: 32.8125em; /* 525px */
-    text-align: justify;
+    text-align: right;
 }
 
 /* Styling for tables */
