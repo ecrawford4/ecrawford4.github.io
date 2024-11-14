@@ -129,6 +129,12 @@ p.contact {
     width: 58%;
 } 
 
+div.contact {
+    text-align: center;
+    width: 40%;
+    margin: 1.25em auto; /* 20px */
+}
+
 p.content-with-image
 {
     width: 100%;
