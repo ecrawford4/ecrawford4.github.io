@@ -51,28 +51,33 @@
         },
         {
             "title": "Symphony no. 2",
-            "audioSrc": "",
-            "scoreSrc": ""
+            "audioSrc": "https://ecrawford4-assets.s3.us-east-2.amazonaws.com/full_symphony_2.wav",
+            "scoreSrc": "https://ecrawford4-assets.s3.us-east-2.amazonaws.com/symphony_no_II_complete_score.pdf"
         },
         {
             "title": "Preamble from Symphony no. 3",
-            "audioSrc": "",
-            "scoreSrc": ""
+            "audioSrc": "https://ecrawford4-assets.s3.us-east-2.amazonaws.com/i_Preamble.mp3",
+            "scoreSrc": "https://ecrawford4-assets.s3.us-east-2.amazonaws.com/i_Preamble.pdf"
         },
         {
-            "title": "",
-            "audioSrc": "",
-            "scoreSrc": ""
+            "title": "March from Symphony no. 3",
+            "audioSrc": "../../assets/v_March-unrolled score.mp3",
+            "scoreSrc": "../../assets/v_March-unrolled score.pdf"
         },
         {
-            "title": "",
-            "audioSrc": "",
-            "scoreSrc": ""
+            "title": "Suite for Sax Quartet no. 2",
+            "audioSrc": "https://ecrawford4-assets.s3.us-east-2.amazonaws.com/Suite_for_Sax_Quartet_2.mp3",
+            "scoreSrc": "https://ecrawford4-assets.s3.us-east-2.amazonaws.com/Suite_for_Sax_Quartet_2.mp3"
         },
         {
-            "title": "",
-            "audioSrc": "",
-            "scoreSrc": ""
+            "title": "Duo for Oboe and Piano",
+            "audioSrc": "https://ecrawford4-assets.s3.us-east-2.amazonaws.com/Duo_for_Oboe_and_Piano.mp3",
+            "scoreSrc": "https://ecrawford4-assets.s3.us-east-2.amazonaws.com/Duo_for_Oboe_and_Piano.pdf"
+        },
+        {
+            "title": "Oboe Concerto no. 2",
+            "audioSrc": "https://ecrawford4-assets.s3.us-east-2.amazonaws.com/Oboe_Concerto_no_2.mp3",
+            "scoreSrc": "https://ecrawford4-assets.s3.us-east-2.amazonaws.com/Oboe_Concerto_no_2.pdf"
         }
     ]
 }
