@@ -1,0 +1,78 @@
+{
+    "socials": [
+        {
+            "socialLink": "https://www.linkedin.com/in/ethan-crawford-791038331/",
+            "imgSrc": "https://icongr.am/simple/linkedin.svg?size=35",
+            "altText": "LinkedIn",
+            "width": "20",
+            "height": "20"
+        },
+        {
+            "socialLink": "https://github.com/ecrawford4",
+            "imgSrc": "https://icongr.am/simple/github.svg?size=35",
+            "altText": "GitHub",
+            "width": "20",
+            "height": "20"
+        },
+        {
+            "socialLink": "https://ecrawford4.substack.com/",
+            "imgSrc": "assets/substack-logo/substack-icon-black.svg",
+            "altText": "substack",
+            "width": "18",
+            "height": "20"
+        },
+        {
+            "socialLink": "https://x.com/ecrawfordme",
+            "imgSrc": "assets/x-logo/logo-black.png",
+            "altText": "X",
+            "width": "20",
+            "height": "20"
+        },
+        {
+            "socialLink": "https://mastodon.social/@ecrawfordme",
+            "imgSrc": "https://icongr.am/simple/mastodon.svg?size=35",
+            "altText": "Mastodon",
+            "width": "20",
+            "height": "20"
+        },
+        {
+            "socialLink": "https://bsky.app/profile/ecrawfordme.bsky.social",
+            "imgSrc": "assets/bsky-logo/bluesky_logo_black.svg",
+            "altText": "bsky",
+            "width": "20",
+            "height": "20"
+        }
+    ],
+    "music": [
+        {
+            "title": "Symphony no. 1 (incomplete)",
+            "audioSrc": "#",
+            "scoreSrc": "#"
+        },
+        {
+            "title": "Symphony no. 2",
+            "audioSrc": "",
+            "scoreSrc": ""
+        },
+        {
+            "title": "Preamble from Symphony no. 3",
+            "audioSrc": "",
+            "scoreSrc": ""
+        },
+        {
+            "title": "",
+            "audioSrc": "",
+            "scoreSrc": ""
+        },
+        {
+            "title": "",
+            "audioSrc": "",
+            "scoreSrc": ""
+        },
+        {
+            "title": "",
+            "audioSrc": "",
+            "scoreSrc": ""
+        }
+    ]
+}
