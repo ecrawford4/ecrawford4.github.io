@@ -299,21 +299,13 @@ th {
 
 /* Grid container styling */
 .grid-container,
-.pinned-project-grid-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 0.625em; /* 10px */
-  margin-top: 1.25em; /* 20px */
-  max-width: 32.8125em; /* 525px */
-  margin-left: auto;
-  margin-right: auto;
-}
+.pinned-project-grid-container,
 .music-folio-grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 0.625em; /* 10px */
   margin-top: 1.25em; /* 20px */
-  max-width: 62.5em; /* 1000px */
+  max-width: 32.8125em; /* 525px */
   margin-left: auto;
   margin-right: auto;
 }
@@ -329,14 +321,18 @@ th {
   box-shadow: 0.125em 0.125em 0.3125em rgba(0, 0, 0.1, 0.1); /* 2px 2px 5px */
 }
 
-.grid-container a {
+.grid-container a,
+.pinned-project-grid-container a,
+.music-folio-grid-container a {
   color: #333;
   text-decoration: underline;
   transition: background-color 0.3s ease, color 0.3s ease;
   transition: transform 0.3s ease;
 }
 
-.grid-container a:hover {
+.grid-container a:hover,
+.pinned-project-grid-container a:hover,
+.music-folio-grid-container a:hover {
   background-color: #e2ad82;
   text-decoration: underline;
   transform: scale(1.1); /* Slight zoom on hover */

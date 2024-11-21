@@ -24,9 +24,22 @@ document.addEventListener('DOMContentLoaded', () => {
         </a>
       `;
         contactContainer.insertAdjacentHTML('beforeend', socialTemplate);
+      }).catch(error => {
+        console.error('Fetch error:', error);
       });
-    })
-    .catch(error => {
-      console.error('Fetch error:', error);
+
+      const projectContainer = document.querySelector("figure.pinned-project-grid-container");
+      if (!projectContainer) {
+        console.error('Project container not found');
+        return;
+      }
+
+      data.pinnedProjects.forEach(project => {
+        const projectTemplate = `
+        <a class="grid-item" href="${project.link}">${project.title}</a>`;
+        projectContainer.insertAdjacentHTML('beforeend', projectTemplate);
+      }).catch(error => {
+        console.error('Fetch error:', error);
+      });
     });
 });

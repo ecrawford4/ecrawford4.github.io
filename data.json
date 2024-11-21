@@ -79,5 +79,19 @@
             "audioSrc": "https://ecrawford4-assets.s3.us-east-2.amazonaws.com/Oboe_Concerto_no_2.mp3",
             "scoreSrc": "https://ecrawford4-assets.s3.us-east-2.amazonaws.com/Oboe_Concerto_no_2.pdf"
         }
+    ],
+    "pinnedProjects" : [
+        {
+            "title": "ecrawford.me",
+            "link" : "https://github.com/ecrawford.me"
+        },
+        {
+            "title": "seedgenerator",
+            "link" : "https://github.com/seedgenerator"
+        },
+        {
+            "title": "textemplate-report",
+            "link" : "https://github.com/textemplate-report"
+        }
     ]
 }
