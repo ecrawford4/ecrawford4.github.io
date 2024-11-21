@@ -27,11 +27,5 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
           container.insertAdjacentHTML('afterbegin', template);
         });
-  
-        const contactContainer = document.querySelector("div.contact");
-        if (!contactContainer) {
-          console.error('Contact container not found');
-          return;
-        }
     });
 });

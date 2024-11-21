@@ -11,12 +11,12 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(data => {
       console.log('Data fetched successfully:', data);
 
-      const container = document.querySelector("figure.music-folio-grid-container");
-      if (!container) {
-        console.error('figure.music-folio-grid-container container not found');
-        return;
-      }
-      
+      const contactContainer = document.querySelector("div.contact");
+        if (!contactContainer) {
+          console.error('Contact container not found');
+          return;
+        }
+
       data.socials.forEach(social => {
         const socialTemplate = `
         <a href="${social.socialLink}" target="_blank">
