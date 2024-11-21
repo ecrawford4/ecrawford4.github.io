@@ -1,7 +1,7 @@
 /* debug styling */
-/** {
+* {
     outline: dotted 1px red;
-} */
+} 
 
 /* Container to hold the left pane and main content */
 .container {

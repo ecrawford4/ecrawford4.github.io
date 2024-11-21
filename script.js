@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', () => {
       console.log('Data fetched successfully:', data);
 
       const contactContainer = document.querySelector("div.contact");
-        if (!contactContainer) {
-          console.error('Contact container not found');
-          return;
-        }
+      if (!contactContainer) {
+        console.error('Contact container not found');
+        return;
+      }
 
       data.socials.forEach(social => {
         const socialTemplate = `
