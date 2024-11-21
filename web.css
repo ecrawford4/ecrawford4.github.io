@@ -326,11 +326,13 @@ th {
     color: #333;
     text-decoration: underline;
     transition: background-color 0.3s ease, color 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .grid-container a:hover {
     background-color: #e2ad82;
     text-decoration: underline;
+    transform: scale(1.1); /* Slight zoom on hover */
 }
 
 details h4 {
