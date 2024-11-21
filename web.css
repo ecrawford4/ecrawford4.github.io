@@ -316,8 +316,8 @@ th {
 .music-folio-grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 0;
-  margin: 0;
+  gap: 0.625em; /* 10px */
+  margin: auto;
 }
 
 .grid-item {
@@ -414,7 +414,6 @@ audio::webkit-media-controls-panel:hover {
   padding-top: 0em; /* 0px */
   padding-left: 0em; /* 0px */
   margin: auto;
-  gap: 0.625em; /* 10px */
 }
 
 .music-folio-grid-item {
