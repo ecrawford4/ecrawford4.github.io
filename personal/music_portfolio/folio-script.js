@@ -11,19 +11,19 @@ document.addEventListener('DOMContentLoaded', () => {
       .then(data => {
         console.log('Data fetched successfully:', data);
   
-        const container = document.querySelector("figure.music-folio-grid-container");
+        const container = document.querySelector("main");
         if (!container) {
-          console.error('figure.music-folio-grid-container container not found');
+          console.error('main container not found');
           return;
         }
   
         data.music.forEach(key => {
           const template = `
-          <section>
-            <h3>${key.title}</h3>
-            <audio controls src="${key.audioSrc}"></audio>
-            <a href="${key.scoreSrc}" target="_blank">View Score</a>
-          </section>
+          <figure class="music-folio-grid-container">
+            <h2 class="music-folio">${key.title}</h2>
+            <audio src="${key.audioSrc}" controls></audio>
+            <a class="music-folio-badge" href="${key.scoreSrc}" target="_blank">View Score</a>
+          </figure>
         `;
           container.insertAdjacentHTML('afterbegin', template);
         });

@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       data.socials.forEach(social => {
         const socialTemplate = `
-        <a href="${social.socialLink}" target="_blank">
+        <a class="social-badge" href="${social.socialLink}" target="_blank">
           <img src="${social.imgSrc}" alt="${social.altText}" width="${social.width}" height="${social.height}">
         </a>
       `;
