@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       data.music.forEach(key => {
         const template = `
-          <figure class="music-folio-grid-container">
+          <figure class="grid-item">
             <h2 class="music-folio">${key.title}</h2>
             <audio src="${key.audioSrc}" controls></audio>
             <a class="music-folio-badge" href="${key.scoreSrc}" target="_blank">View Score</a>
