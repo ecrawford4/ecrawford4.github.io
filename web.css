@@ -317,6 +317,7 @@ th {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 0.625em; /* 10px */
+  width: 95%;
   margin: auto;
 }
 
@@ -353,6 +354,10 @@ details h4 {
   text-align: left;
   margin-bottom: 0;
   margin-left: 1.25em; /* 20px */
+}
+
+figure.contact {
+    margin: auto;
 }
 
 /* Styling for social badge links */
@@ -404,7 +409,7 @@ audio::-webkit-media-controls-panel {
   transition: color 0.3s ease, color 0.3s ease;
 }
 
-audio::webkit-media-controls-panel:hover {
+audio::-webkit-media-controls-panel:hover {
   background-color: #e2ad82;
   color: #333;
 }
