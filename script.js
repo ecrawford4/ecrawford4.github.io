@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
       data.socials.forEach(social => {
         const socialTemplate = `
         <a class="social-badge" href="${social.socialLink}" target="_blank">
-          <img src="${social.imgSrc}" alt="${social.altText}" width="${social.width}" height="${social.height}">
+          <img class="social-badge" src="${social.imgSrc}" alt="${social.altText}" width="${social.width}" height="${social.height}">
         </a>
       `;
         contactContainer.insertAdjacentHTML('beforeend', socialTemplate);
