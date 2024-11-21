@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(data => {
       console.log('Data fetched successfully:', data);
 
-      const container = document.querySelector("main");
+      const container = document.querySelector("figure.music-folio-grid-container");
       if (!container) {
         console.error('Main container not found');
         return;
