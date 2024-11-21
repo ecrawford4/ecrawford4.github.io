@@ -13,27 +13,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const container = document.querySelector("figure.music-folio-grid-container");
       if (!container) {
-        console.error('Main container not found');
+        console.error('figure.music-folio-grid-container container not found');
         return;
       }
-
-      data.music.forEach(key => {
-        const template = `
-        <section>
-          <h3>${key.title}</h3>
-          <audio controls src="${key.audioSrc}"></audio>
-          <a href="${key.scoreSrc}" target="_blank">View Score</a>
-        </section>
-      `;
-        container.insertAdjacentHTML('afterbegin', template);
-      });
-
-      const contactContainer = document.querySelector("div.contact");
-      if (!contactContainer) {
-        console.error('Contact container not found');
-        return;
-      }
-
+      
       data.socials.forEach(social => {
         const socialTemplate = `
         <a href="${social.socialLink}" target="_blank">
