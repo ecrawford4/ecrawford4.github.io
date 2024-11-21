@@ -341,7 +341,7 @@ details h4 {
 }
 
 /* Styling for social badge links */
-a.social-badge, a.music-folio-badge {
+div.contact a.social-badge, a.music-folio-badge {
     display: inline-block;
     background-color: #6e6863;
     color: #fff;
@@ -365,7 +365,7 @@ a.music-folio-badge:hover {
     color: #333;
 }
 
-a.social-badge:hover {
+div.contact a.social-badge:hover {
     background-color: #e2ad82;
     color: #333;
 }
