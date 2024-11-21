@@ -1,3 +1,6 @@
 # ignore sitemap
 .sitemap/*
 .vscode/*
+
+# ignore data.json; data.json is stored in an aws s3 bucket
+data.json 
