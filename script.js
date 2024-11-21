@@ -21,9 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const projectTemplate = `
         <a class="grid-item" href="${project.link}">${project.title}</a>`;
         projectContainer.insertAdjacentHTML('beforeend', projectTemplate);
-      }).catch(error => {
-        console.error('Fetch error:', error);
-      });
+      })
 
       const contactContainer = document.querySelector("div.contact");
       if (!contactContainer) {
@@ -38,8 +36,6 @@ document.addEventListener('DOMContentLoaded', () => {
         </a>
       `;
         contactContainer.insertAdjacentHTML('beforeend', socialTemplate);
-      }).catch(error => {
-        console.error('Fetch error:', error);
       });
     });
 });
