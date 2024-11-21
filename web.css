@@ -2,6 +2,15 @@
 /* * {
   outline: dotted 1px red;
 } */
+ 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
 
 /* Container to hold the left pane and main content */
 .container {
@@ -20,13 +29,6 @@
   overflow: hidden; /* Prevent the whole container from scrolling */
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
 
 body {
   font-family: sans-serif;
@@ -89,6 +91,7 @@ main {
 
 figure {
   max-width: 35rem;
+  margin: 0;
 }
 
 h1 {
@@ -299,8 +302,7 @@ th {
 
 /* Grid container styling */
 .grid-container,
-.pinned-project-grid-container,
-.music-folio-grid-container {
+.pinned-project-grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 0.625em; /* 10px */
@@ -308,6 +310,13 @@ th {
   max-width: 32.8125em; /* 525px */
   margin-left: auto;
   margin-right: auto;
+}
+
+.music-folio-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+  margin: 0;
 }
 
 .grid-item {
