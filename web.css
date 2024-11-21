@@ -1,8 +1,9 @@
 /* debug styling */
-/* * {
+* {
   outline: dotted 1px red;
-} */
- 
+}
+
+/* Overwrite default browser styles */
 html,
 body {
   margin: 0;
@@ -29,7 +30,7 @@ body {
   overflow: hidden; /* Prevent the whole container from scrolling */
 }
 
-
+/* body styling */
 body {
   font-family: sans-serif;
   background-image: url("assets/1670284497378674.jpg");
@@ -145,7 +146,7 @@ p.contact {
 div.contact {
   text-align: center;
   width: 40%;
-  margin: 1.25em auto; /* 20px */
+  margin: auto; /* 20px */
 }
 
 /* Styling for the links inside the contact div */
@@ -412,6 +413,8 @@ audio::webkit-media-controls-panel:hover {
   text-align: center;
   padding-top: 0em; /* 0px */
   padding-left: 0em; /* 0px */
+  margin: auto;
+  gap: 0.625em; /* 10px */
 }
 
 .music-folio-grid-item {
