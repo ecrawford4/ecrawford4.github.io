@@ -121,7 +121,6 @@ h4 {
 
 /* Paragraph styling with the same width as the image */
 p {
-    
     font-size: 18px;
     width: 80%;
     margin: 1.25em auto; /* 20px */
@@ -138,6 +137,26 @@ div.contact {
     text-align: center;
     width: 40%;
     margin: 1.25em auto; /* 20px */
+}
+
+/* Styling for the links inside the contact div */
+div.contact a {
+    display: inline-block;
+    margin: 5px; /* Add spacing between icons */
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+div.contact a:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+div.contact a img {
+    transition: transform 0.3s ease;
+}
+
+div.contact a img:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
 }
 
 p.content-with-image
