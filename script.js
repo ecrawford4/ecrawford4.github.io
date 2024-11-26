@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       data.pinnedProjects.forEach(project => {
         const projectTemplate = `
-        <a class="grid-item" href="${project.link}">${project.title}</a>`;
+        <a class="grid-item" target="_blank" href="${project.link}">${project.title}</a>`;
         projectContainer.insertAdjacentHTML('beforeend', projectTemplate);
       })
 
