@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <figure>
             <h2 class="music-folio">${key.title}</h2>
             <audio src="${key.audioSrc}" controls></audio>
-            <a class="music-folio-badge" href="${key.scoreSrc}" target="_blank">View Score</a>
+            <a class="music-folio-badge" target="_blank" href="${key.scoreSrc}">View Score</a>
           </figure>
         `;
         container.insertAdjacentHTML('afterbegin', template);
