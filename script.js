@@ -53,25 +53,6 @@ document.addEventListener('DOMContentLoaded', () => {
         </a>
       `;
         contactContainer.insertAdjacentHTML('beforeend', socialTemplate);
-      })
-
-      // select the music container
-      const container = document.querySelector("figure.music-folio-grid-container");
-      if (!container) {
-        console.error('figure.music-folio-grid-container container not found');
-        return;
-      }
-
-      // populate music portfolio
-      data.music.forEach(key => {
-        const template = `
-          <figure>
-            <h2 class="music-folio">${key.title}</h2>
-            <audio src="${key.audioSrc}" controls></audio>
-            <a class="music-folio-badge" target="_blank" href="${key.scoreSrc}">View Score</a>
-          </figure>
-        `;
-        container.insertAdjacentHTML('afterbegin', template);
       });
     });
 });
