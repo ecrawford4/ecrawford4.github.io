@@ -353,7 +353,7 @@ th {
 .pinned-project-grid-container a,
 .music-folio-grid-container a {
   color: #333;
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-decoration: underline;
   transition: background-color 0.3s ease, color 0.3s ease;
   transition: transform 0.3s ease;
