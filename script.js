@@ -1,4 +1,17 @@
 document.addEventListener('DOMContentLoaded', () => {
+  // take the time at the moment the page is loaded, display it as the "current session"
+  const dateTimeString = new Date().toLocaleString();
+  const [datePart, timePart] = dateTimeString.split(', ');
+  document.getElementById('current-session').innerHTML = `Current Session:<br>${datePart}<br>${timePart}`;
+  
+  // real time clock display: update the time every second
+  setInterval(() => {
+    const dateTimeString = new Date().toLocaleString();
+    const [datePart, timePart] = dateTimeString.split(', ');
+    document.getElementById('real-time-clock').innerHTML = `Current Time:<br>${datePart}<br>${timePart}`;
+  }, 1000);
+  
+  // fetch the data from the data.json file
   const dataSource = "https://ecrawford4-assets.s3.us-east-2.amazonaws.com/data.json";
 
   fetch(dataSource)
@@ -19,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       data.pinnedProjects.forEach(project => {
         const projectTemplate = `
-        <a class="grid-item" href="${project.link}">${project.title}</a>`;
+        <a class="grid-item" target="_blank" href="${project.link}">${project.title}</a>`;
         projectContainer.insertAdjacentHTML('beforeend', projectTemplate);
       })
 
@@ -31,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       data.socials.forEach(social => {
         const socialTemplate = `
-        <a class="social-badge" href="${social.socialLink}" target="_blank">
+        <a class="social-badge" target="_blank" href="${social.socialLink}">
           <img class="social-badge" src="${social.imgSrc}" alt="${social.altText}" width="${social.width}" height="${social.height}">
         </a>
       `;
