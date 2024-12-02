@@ -266,6 +266,8 @@ img {
 
 img.social-badge {
   border-radius: 0em; /* 0px */
+  margin: 0.1em; /* 2px */
+  box-shadow: 0 0 0 0; /* overwrite parent box shadow */ 
 }
 
 /* Styling for code blocks */
