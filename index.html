@@ -31,11 +31,7 @@
 
             <p id="current-session"></p>
 
-            <script>
-                const dateTimeString = new Date().toLocaleString();
-                const [datePart, timePart] = dateTimeString.split(', ');
-                document.getElementById('current-session').innerHTML = `Current Session:<br>${datePart}<br>${timePart}`;
-            </script>
+            <p id="real-time-clock"></p>
 
             <p class="copyright"><i>&copy; 2024 Ethan Crawford</i></p>
 
