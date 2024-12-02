@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </a>
       `;
         contactContainer.insertAdjacentHTML('beforeend', socialTemplate);
-      });
+      })
 
       // select the music container
       const container = document.querySelector("figure.music-folio-grid-container");
