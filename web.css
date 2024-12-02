@@ -78,6 +78,7 @@ body {
 
 .left-pane ul li a {
   color: #cfc3ae;
+  font-size: 1.5em;
   text-decoration: none;
   transition: color 0.3s ease, color 0.3s ease;
 }
@@ -163,6 +164,7 @@ div.contact {
 /* Styling for the links inside the contact div */
 div.contact a {
   display: inline-block;
+  font-size: 1.5em;
   margin: 5px; /* Add spacing between icons */
   text-decoration: none;
   transition: transform 0.3s ease;
@@ -208,6 +210,7 @@ details p{
 
 a {
   color: #333;
+  font-size: 1.5em;
   font-family: monospace;
   text-decoration: underline;
   transition: color 0.3s ease, color 0.3s ease;
@@ -234,6 +237,7 @@ details {
 /* Styling for links inside details element */
 details a {
   color: #bbb;
+  font-size: 1.5em;
   text-decoration: underline;
   transition: color 0.3s ease, color 0.3s ease;
   transition: transform 0.3s ease;
@@ -351,6 +355,7 @@ th {
 .pinned-project-grid-container a,
 .music-folio-grid-container a {
   color: #333;
+  font-size: 1.5em;
   text-decoration: underline;
   transition: background-color 0.3s ease, color 0.3s ease;
   transition: transform 0.3s ease;
