@@ -78,7 +78,7 @@ body {
 
 .left-pane ul li a {
   color: #cfc3ae;
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-decoration: none;
   transition: color 0.3s ease, color 0.3s ease;
 }
@@ -164,7 +164,7 @@ div.contact {
 /* Styling for the links inside the contact div */
 div.contact a {
   display: inline-block;
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin: 5px; /* Add spacing between icons */
   text-decoration: none;
   transition: transform 0.3s ease;
