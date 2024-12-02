@@ -210,7 +210,6 @@ details p{
 
 a {
   color: #333;
-  font-size: 1.5em;
   font-family: monospace;
   text-decoration: underline;
   transition: color 0.3s ease, color 0.3s ease;
@@ -237,7 +236,6 @@ details {
 /* Styling for links inside details element */
 details a {
   color: #bbb;
-  font-size: 1.5em;
   text-decoration: underline;
   transition: color 0.3s ease, color 0.3s ease;
   transition: transform 0.3s ease;
