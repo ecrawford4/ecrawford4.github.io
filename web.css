@@ -334,8 +334,9 @@ th {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 0.625em; /* 10px */
-  width: 95%;
+  width: 100%;
   margin: auto;
+  max-width: fit-content;
 }
 
 .grid-item {
