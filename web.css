@@ -112,9 +112,9 @@ h1 {
   color: #303030;
   margin: 1.25em auto; /* 20px */
   text-align: center;
-  font-size: 3em;
+  font-size: 3.5em;
   margin-top: 0.3125em;
-  margin-bottom: 0.625em;
+  margin-bottom: 0em;
 }
 
 h2 {
@@ -465,4 +465,137 @@ audio::-webkit-media-controls-panel:hover {
   box-shadow: 0.125em 0 0.3125em rgba(0.1, 0.1, 0.1, 0.1); /* 2px 0 5px */
   max-width: 12.5em; /* 200px */
   height: auto;
+}
+
+/* Google Fonts */
+
+.atkinson-hyperlegible-regular {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.atkinson-hyperlegible-bold {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.atkinson-hyperlegible-regular-italic {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.atkinson-hyperlegible-bold-italic {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.spectral-extralight {
+  font-family: "Spectral", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.spectral-light {
+  font-family: "Spectral", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.spectral-regular {
+  font-family: "Spectral", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.spectral-medium {
+  font-family: "Spectral", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.spectral-semibold {
+  font-family: "Spectral", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.spectral-bold {
+  font-family: "Spectral", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.spectral-extrabold {
+  font-family: "Spectral", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.spectral-extralight-italic {
+  font-family: "Spectral", serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.spectral-light-italic {
+  font-family: "Spectral", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.spectral-regular-italic {
+  font-family: "Spectral", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.spectral-medium-italic {
+  font-family: "Spectral", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.spectral-semibold-italic {
+  font-family: "Spectral", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.spectral-bold-italic {
+  font-family: "Spectral", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.spectral-extrabold-italic {
+  font-family: "Spectral", serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.playfair-display-regular {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-sans-display-extra-thin {
+  font-family: "Noto Sans Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 62.5;
+}
+
+.bodoni-moda-regular {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
