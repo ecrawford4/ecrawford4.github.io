@@ -13,6 +13,10 @@ a {
     text-decoration: none;
 }
 
+a.top {
+    color: rgb(200, 0, 0);
+}
+
 a.dir {
     color: rgb(0, 200, 200);
 }
@@ -26,5 +30,5 @@ a.file {
 }
 
 a.src {
-    color: rgb(200,200,0);
+    color: rgb(0,200,0);
 }
