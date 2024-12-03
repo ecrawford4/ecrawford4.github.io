@@ -9,9 +9,12 @@ pre {
     font-size: 14px;
 }
 
+a {
+    text-decoration: none;
+}
+
 a.dir {
     color: rgb(0, 200, 200);
-    text-decoration: none;
 }
 
 a:hover {
@@ -22,6 +25,6 @@ a.file {
     color: rgb(200, 0, 200);
 }
 
-em {
+a.src {
     color: rgb(200,200,0);
 }
