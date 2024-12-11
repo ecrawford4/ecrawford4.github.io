@@ -32,8 +32,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
       data.music.forEach(key => {
         const template = `
-          <figure>
-            <h2 class="music-folio">${key.title}</h2>
+          <figure class="music-folio-grid-item">
+            <h2 class="music-folio spectral-light-italic">${key.title}</h2>
             <audio src="${key.audioSrc}" controls></audio>
             <a class="music-folio-badge" target="_blank" href="${key.scoreSrc}">View Score</a>
           </figure>
