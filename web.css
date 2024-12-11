@@ -3,14 +3,15 @@
   outline: dotted 1px red;
 } */
 
+
 /* Overwrite default browser styles */
 html,
 body {
   margin: 0;
   padding: 0;
-  width: 100%;
+  /* width: 100%;
   height: 100%;
-  overflow: hidden;
+  overflow: hidden; */
 }
 
 /* Container to hold the left pane and main content */
@@ -385,7 +386,7 @@ details h4 {
 }
 
 figure.contact {
-    margin: auto;
+  margin: auto;
     padding-bottom: 2.5rem;
 }
 
@@ -598,7 +599,7 @@ audio::-webkit-media-controls-panel:hover {
   font-weight: 100;
   font-style: normal;
   font-variation-settings:
-    "wdth" 62.5;
+  "wdth" 62.5;
 }
 
 .bodoni-moda-regular {
@@ -606,4 +607,48 @@ audio::-webkit-media-controls-panel:hover {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+}
+
+/* testing mobile style */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h3, h4 {
+    font-size: 1.2em;
+  }
+
+  p, a {
+    font-size: 1em;
+  }
+
+  .left-pane {
+    width: 100%;
+    height: auto;
+    position: relative;
+    box-shadow: none;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  main {
+    width: 100%;
+    max-width: none;
+    height: auto;
+  }
+
+  .grid-container, .pinned-project-grid-container, .music-folio-grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-item {
+    max-width: 100%;
+  }
 }
