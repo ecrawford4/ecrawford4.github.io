@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('real-time-clock').innerHTML = `Current Time:<br>${datePart}<br>${timePart}`;
   }, 1000);
 
-
+  // fetch music portfolio data from the server
   const dataSource = "https://ecrawford4-assets.s3.us-east-2.amazonaws.com/data.json";
 
   fetch(dataSource)
